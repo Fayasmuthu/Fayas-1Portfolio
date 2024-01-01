@@ -19077,28 +19077,6 @@ ul.list-reset{
     visibility:hidden
 }
 
-/* @media(max-width:750px){
-    .mt-5{
-        margin-top:10rem!important
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .mt-5 {
-        margin-top: 3rem !important;
-    }
-    .section-intro .intro-text {
-        font-size: 10px;
-    }
-    .profile{
-        width: 50px;
-    }
-}
-
-.texthero .intro-name{
-    font-size: 30px;
-} */
-
 @media(max-width:320px) {
     .imagehero{
         margin-top:0rem!important
@@ -19134,46 +19112,6 @@ ul.list-reset{
     }
 }
 
-/* @media (min-width: 360px){
-
-    .imagehero{
-        
-        margin-top:0rem!important;
-
-    }
-    .texthero h3{
-        font-size: 16px !important;
-    }
-    .texthero p{
-        font-size: 12px !important;
-    }
-    .imtxhero{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto !important;
-    }
-}
-@media (min-width: 768px) and (max-width: 1000px) {
-
-    .imagehero{
-        
-        margin-top:1rem!important;
-
-    }
-    .texthero h3{
-        font-size: 30px !important;
-    }
-    .texthero p{
-        font-size: 16px !important;
-    }
-    .imtxhero{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto !important;
-    }
-} */
 
 @media (min-width: 768px){
     .imagehero{
@@ -19187,7 +19125,7 @@ ul.list-reset{
         font-size: 25px !important;
     }
     .texthero p{
-        font-size: 18px !important;
+        font-size: 16px !important;
         text-align: justify;
     }
     .imtxhero{
@@ -19207,11 +19145,10 @@ ul.list-reset{
     }
     .texthero h3{
         margin-top:4rem!important;
-
         font-size: 28px !important;
     }
     .texthero p{
-        font-size: 22px !important;
+        font-size: 16px !important;
         margin-bottom:5rem!important;
 
     }
@@ -19226,14 +19163,16 @@ ul.list-reset{
 @media (min-width: 1099px){
     .imagehero{
         
-        margin-top:0rem!important;
+        margin-top:1rem!important;
 
     }
     .texthero h3{
-        font-size: 36px !important;
+        font-size: 30px !important;
+        margin-top:6rem!important;
+
     }
     .texthero p{
-        font-size: 24px !important;
+        font-size: 16px !important;
     }
     .imtxhero{
         display: flex;
