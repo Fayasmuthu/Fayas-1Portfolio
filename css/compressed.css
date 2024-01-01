@@ -8832,7 +8832,7 @@ a.bg-dark:focus,a.bg-dark:hover{
     margin-left:3rem!important
 }
 .mt-5,.my-5{
-    margin-top:3rem!important
+    margin-top:2rem!important
 }
 .mb-5,.my-5{
     margin-bottom:3rem!important
@@ -19104,23 +19104,27 @@ ul.list-reset{
         margin-top:0rem!important
     }
     .texthero h3{
-        font-size: 12px !important;
+        font-size: 18px !important;
     }
     .texthero p{
-        font-size: 10px !important;
+        font-size: 12px !important;
+        text-align: justify;
+
     }
 }
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 321px){
     .imagehero{
         
         margin-top:1rem!important;
 
     }
     .texthero h3{
-        font-size: 14px !important;
+        font-size: 18px !important;
     }
     .texthero p{
-        font-size: 10px !important;
+        font-size: 15px !important;
+        text-align: justify;
+
     }
     .imtxhero{
         display: flex;
@@ -19130,18 +19134,18 @@ ul.list-reset{
     }
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
+/* @media (min-width: 360px){
 
     .imagehero{
         
-        margin-top:1rem!important;
+        margin-top:0rem!important;
 
     }
     .texthero h3{
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
     .texthero p{
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
     .imtxhero{
         display: flex;
@@ -19162,6 +19166,74 @@ ul.list-reset{
     }
     .texthero p{
         font-size: 16px !important;
+    }
+    .imtxhero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto !important;
+    }
+} */
+
+@media (min-width: 768px){
+    .imagehero{
+        
+        margin-top:4rem!important;
+
+    }
+    .texthero h3{
+        margin-top:5rem!important;
+
+        font-size: 25px !important;
+    }
+    .texthero p{
+        font-size: 18px !important;
+        text-align: justify;
+    }
+    .imtxhero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto !important;
+    }
+}
+
+@media (min-width: 1000px){
+    .imagehero{
+        
+        margin-top:0rem!important;
+        
+
+    }
+    .texthero h3{
+        margin-top:4rem!important;
+
+        font-size: 28px !important;
+    }
+    .texthero p{
+        font-size: 22px !important;
+        margin-bottom:5rem!important;
+
+    }
+    .imtxhero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto !important;
+    }
+}
+
+@media (min-width: 1099px){
+    .imagehero{
+        
+        margin-top:0rem!important;
+
+    }
+    .texthero h3{
+        font-size: 36px !important;
+    }
+    .texthero p{
+        font-size: 24px !important;
     }
     .imtxhero{
         display: flex;
